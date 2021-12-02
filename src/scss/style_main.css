@@ -190,4 +190,21 @@ ul {
   border-radius: 5px;
   text-decoration: none !important;
 }
+
+.tr_filter {
+  width: 150px;
+  height: 40px;
+  border-radius: 2px;
+  border-color: #5a85dd !important;
+  background-color: transparent !important;
+}
+
+.tr_filter:focus,
+.tr_filter:active {
+  width: 150px;
+  height: 40px;
+  border-radius: 2px;
+  border-color: #5a85dd !important;
+  background-color: transparent !important;
+}
 /*# sourceMappingURL=style_main.css.map */
