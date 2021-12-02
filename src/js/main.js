@@ -190,6 +190,25 @@ function carregaListaDespesas(despesas = Array(), filtro = false) {
 
 }
 
+// $(function(){ 
+// 	$("#filtro").keyup(function( event ){
+// 	  var texto = $(this).val();
+	  
+// 	  $(".bloco").each(function(){
+// 		var resultado = $(this).text().toUpperCase().indexOf(' '+texto.toUpperCase());
+		
+// 		if(resultado < 0) {
+// 		  $(this).fadeOut();
+// 		}else {
+// 		  $(this).fadeIn();
+// 		}
+// 	  }); 
+  
+// 	});
+  
+//   });
+
+
 
 function pesquisarDespesa() {
 
@@ -207,8 +226,6 @@ function pesquisarDespesa() {
 	this.carregaListaDespesas(despesas, true)
 
 }
-
-
 
 function AdicionarFiltro(tabela, coluna) {
     var cols = $("#" + tabela + " thead tr:first-child th").length;
